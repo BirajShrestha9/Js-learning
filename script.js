@@ -156,3 +156,11 @@ const info = "the person is " + person + " and " + age + " years old.";
 const info1 = `The person is ${person} and ${age} years old.`;
 console.log(info);
 console.log(info1);
+
+// CHALLENGE 4
+const bill = 4545;
+
+const tip = bill >= 50 && bill <= 300 ? (15 / 100) * bill : (20 / 100) * bill;
+const totalValue = bill + tip;
+console.log(`The bill was ${bill}, the tip was ${tip}, and the total value
+was ${totalValue}`);
